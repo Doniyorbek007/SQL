@@ -45,3 +45,19 @@ VALUES
     (3, 'Mango', '13_000'),
     (4, 'Pineapple', '20_000')
 RETURNING * | output_expression;
+
+SELECT
+    name
+FROM
+    fruits
+ORDER BY
+    name ASC;
+
+
+SELECT
+    name
+FROM
+    fruits
+ORDER BY
+    price DESC;
+
