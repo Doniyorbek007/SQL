@@ -1,0 +1,6 @@
+\CREATE DATABESE (name) WITH;
+\ALTER DATABASE old_name RENAME TO new_name; = rename  
+\l = dir
+\c (database name); = connect database
+\! cls = clear screen
+\q
